@@ -1,0 +1,56 @@
+html, body{
+  height: 100%;
+  min-width: 100%;
+  background-image: url("images/desert.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container{
+  border: solid;
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  top: 35%;
+  left: 46%;
+  margin-top: -100px;
+  margin-left: -200px;
+  border-radius: 25px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.creator-title{
+  color: green;
+  font-family: cursive;
+}
+
+div{
+  padding-top: 5px;
+}
+
+.list-container{
+  width: 490px;
+  height: 320px;
+  overflow-y: auto;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  border-bottom: dotted 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.error-message{
+  color: #ff0000;
+}
