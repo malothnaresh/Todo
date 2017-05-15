@@ -54,3 +54,7 @@ ul li{
 .error-message{
   color: #ff0000;
 }
+
+.no-elements{
+  padding-left: -30px;
+}
